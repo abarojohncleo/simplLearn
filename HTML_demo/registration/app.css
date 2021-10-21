@@ -1,0 +1,36 @@
+body{
+  background-color: teal;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 20px 20px 20px 0px rgba(0,0,0, 0.7);
+}
+input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0px 22px 0px;
+  display: inline-block;
+  border-color: none;
+  background: whitesmoke;
+}
+
+input:focus{
+  background-color:#ddd;
+  outline: none;
+}
+.registerbtn{
+  background-color: teal;
+  padding: 5px;
+  color:white;
+  border:none;
+  cursor: pointer;
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+}
