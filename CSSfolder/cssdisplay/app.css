@@ -1,0 +1,107 @@
+
+/* css display */
+/* p{
+  font-size: 30px;
+  background-color:cyan;
+  display: inline;
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+  display: inline;
+} */
+
+/* css position */
+/* html{
+  background-color: pink;
+  padding: 10px;
+}
+body{
+  background-color: cyan;
+  padding: 10px;
+  margin:0px;
+  font-size: 30px;
+  position: relative;
+}
+header{
+  background-color: white;
+  margin: 10px;
+  height: 100vh;
+}
+nav{
+  background-color: white;
+  margin: 10px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  position: fixed;
+  top: 10px;
+}
+footer{
+  background-color: white;
+  margin: 10px;
+} */
+
+/* css grid and flexbox */
+/* *{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+header,
+aside,
+main,
+footer{
+  padding: 16px;
+  text-align: center;
+}
+header{
+  background: #E19;
+  grid-template-columns: 60px;
+}
+aside{
+  background: #E35C8B;
+  grid-template-columns: auto;
+}
+footer{
+  background: black;
+  grid-template-columns: 60px;
+}
+.navigation-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation-item{
+  margin: 0 10px;
+}
+.navigation-item a{
+  text-decoration: none;
+  color: white
+}
+
+.navigation-item a:hover,
+.navigation-item a:active{
+  color: cyan;
+} */
+
+/* css image */
+
+body{
+  background-image: url("image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-y; */
+}
+p{
+  color: red;
+  text-align: center;
+}
