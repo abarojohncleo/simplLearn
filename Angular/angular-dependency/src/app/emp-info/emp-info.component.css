@@ -1,0 +1,11 @@
+button{
+  align-items: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
+}
+button-group {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
